@@ -1,0 +1,50 @@
+table {
+    width: 100%;
+  }
+  
+  tr.detail-row {
+    height: 0;
+  }
+  
+  tr.element-row:not(.expanded-row):hover {
+    background: #e91e63;
+  }
+  
+  tr.element-row:not(.expanded-row):active {
+    background: #e91e63;
+  }
+  
+  .element-row td {
+    border-bottom-width: 0;
+  }
+  
+  .element-detail {
+    overflow: hidden;
+    display: flex;
+  }
+  
+  
+  .element-description {
+    padding: 16px;
+  }
+  
+  .element-description-attribution {
+    opacity: 0.5;
+  }
+
+  .table-container {
+    padding: 15px;
+    
+  }
+
+  .header-element > .mat-header-cell {
+    font-size: 18px;
+  }
+
+  mat-form-field {
+    width: 100%;
+    color: whitesmoke
+  }
+
+
+
