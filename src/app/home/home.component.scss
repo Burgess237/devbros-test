@@ -48,3 +48,23 @@ table {
 
 
 
+.button-block {
+  border: 1px solid grey;
+  height: fit-content;
+  margin-left: 150px;
+  padding: 5px;
+  width: fit-content;
+  background-color: #aaaaaa;
+  border-radius: 15px;
+}
+
+.button {
+  text-align: center;
+  background-image: linear-gradient(#b9b9b9, #fff);
+  padding: 20px 50px;
+  line-height: 4em;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  border: 2px solid grey;
+}
